@@ -1,0 +1,15 @@
+# Core dependencies
+duckduckgo_search>=7.0.0
+httpx[http2]>=0.27.0
+trafilatura>=1.8.0
+beautifulsoup4>=4.12.0
+phonenumbers>=8.13.0
+fake-useragent>=2.0.0
+cloudscraper>=1.2.71
+lxml>=5.0.0
+thefuzz[speedup]>=0.22.0
+
+# Optional: install for JS-heavy sites (downloads ~500MB of browsers)
+# Uncomment the lines below if you need browser-based scraping:
+# crawl4ai
+# playwright
